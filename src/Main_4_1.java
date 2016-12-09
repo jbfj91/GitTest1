@@ -11,7 +11,6 @@ public class Main_4_1 {
 	 * Beginn des Programms<br>
 	 * <br>
 	 * 5 Objekte mit Positions- und Laengenangaben initialisiert:<br>
-	 * 
 	 * Ausgaben:<br>
 	 */
 	public static void main(String[] args) {
@@ -21,6 +20,8 @@ public class Main_4_1 {
 		new Ellipse(4, 10, 5, 10, 20);
 		new Kreis(10, 10, 6, 5);
 		new Quadrat(100, 200, -10, 35);
+		
+		System.out.println("hello git");
 		
 		for (Figur f : Figur.getAlleFiguren()) {
 			System.out.println(f);
