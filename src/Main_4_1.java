@@ -21,6 +21,7 @@ public class Main_4_1 {
 		new Kreis(10, 10, 6, 5);
 		new Quadrat(100, 200, -10, 35);
 		
+		//git Testing changes
 		System.out.println("hello git");
 		
 		for (Figur f : Figur.getAlleFiguren()) {
